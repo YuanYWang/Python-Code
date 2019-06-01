@@ -91,7 +91,7 @@ while not done:
     if not success and change:
         if not ms.fail:
             screen.fill(WHITE)
-            ms.makeBackup()
+            ms.makeBackup() #so we can cheat
         else:
             screen.fill(RED)
         # --- Drawing code should go here
